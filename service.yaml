@@ -6,7 +6,7 @@ spec:
   ports:
     - name: http
       port: 80         # Port inside the cluster
-      NodePort: 30007
+      nodePort: 30007
   selector:
     app: nginx    
   type: nodePort 
