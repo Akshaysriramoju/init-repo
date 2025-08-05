@@ -9,4 +9,4 @@ spec:
       nodePort: 30007
   selector:
     app: nginx    
-  type: nodePort 
+  type: NodePort 
