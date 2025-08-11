@@ -46,6 +46,6 @@ spec:
     spec:
       containers:
       - name: login
-        image: login
+        image: akshaysriramoju/init-repo
         ports:
         - containerPort: 80
